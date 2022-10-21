@@ -16,3 +16,16 @@ pipeline {
         }
     }
 }
+
+
+/* sudo apt install python3.9 -y 
+ python3.9 --version
+ sudo apt install -y python3-pip
+ python3 -m pip install --upgrade pip setuptools wheel
+ =>  pip3 install -r requirements.txt
+ pip install pytest
+ pip install tox
+ sudo apt install tox -y
+ export PATH="/usr/lib/jenkins/.local/bin:$PATH"
+ =>   tox
+ */
