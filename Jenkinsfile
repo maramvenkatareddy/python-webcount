@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage ('clone the code') {
             steps {
-                git url: https://github.com/maramvenkatareddy/python-webcount.git
-                    branch: master
+                git url: 'https://github.com/maramvenkatareddy/python-webcount.git',
+                    branch: 'master'
             }
         }
 
