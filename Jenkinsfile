@@ -11,7 +11,7 @@ pipeline {
         stage ('install requirements') {
             steps {
                 sh 'pip3 install -r requirements.txt'
-                sh 'tox'
+                sh '/usr/share/man/man1/tox.1.gz/tox'tox'
             }
         }
     }
